@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-05T00:23:19.972Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="IeWWsU8rGdEWYx5EiD9Y" version="15.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-05T00:33:20.685Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="oE_X2vEU8LsI2sJDgq-8" version="15.9.1" type="github">
   <diagram id="B_Kyze1z_75yRYQksSdH" name="Page-1">
     <mxGraphModel dx="680" dy="385" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -143,6 +143,58 @@
             <mxPoint x="630.0799999999999" y="40" as="sourcePoint" />
             <mxPoint x="629.5799999999999" y="80" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="xjnHRLogiP08fS3p93gv-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;shadow=0;strokeColor=#000000;strokeWidth=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xjnHRLogiP08fS3p93gv-56" target="xjnHRLogiP08fS3p93gv-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1490" y="98" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xjnHRLogiP08fS3p93gv-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="xjnHRLogiP08fS3p93gv-56" target="xjnHRLogiP08fS3p93gv-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xjnHRLogiP08fS3p93gv-56" value="SolicitaçãoEmpréstimo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="78" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xjnHRLogiP08fS3p93gv-57" value="EventoNúmeroEmpréstimo &amp;lt; 3&lt;br&gt;AçãoBuscarTìtulo" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="55" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xjnHRLogiP08fS3p93gv-58" value="" style="endArrow=none;html=1;rounded=0;entryX=0.846;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1260" y="81" as="sourcePoint" />
+            <mxPoint x="1439.96" y="81" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xjnHRLogiP08fS3p93gv-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;shadow=0;strokeColor=#000000;strokeWidth=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xjnHRLogiP08fS3p93gv-62" target="xjnHRLogiP08fS3p93gv-71">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1500" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xjnHRLogiP08fS3p93gv-62" value="buscandoTítulos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="78" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xjnHRLogiP08fS3p93gv-63" value="EmpréstimoNãoPermitido" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="210" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xjnHRLogiP08fS3p93gv-65" value="" style="endArrow=none;html=1;rounded=0;entryX=0.846;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1180.02" y="164.57999999999993" as="sourcePoint" />
+            <mxPoint x="1359.98" y="164.57999999999993" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xjnHRLogiP08fS3p93gv-66" value="EventoNumeroEmpréstimo &amp;gt; 3&lt;br&gt;AçãoNegarImpréstimo" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="140" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xjnHRLogiP08fS3p93gv-67" value="" style="endArrow=none;html=1;rounded=0;entryX=0.846;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1504.02" y="164.57999999999993" as="sourcePoint" />
+            <mxPoint x="1683.98" y="164.57999999999993" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xjnHRLogiP08fS3p93gv-68" value="EventoPublicaçãoEncontrada&lt;br&gt;AçãoRealizarEmpréstimo" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1464" y="140" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xjnHRLogiP08fS3p93gv-71" value="EmpréstimoPermitido" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="210" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
