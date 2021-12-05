@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-05T00:33:20.685Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="oE_X2vEU8LsI2sJDgq-8" version="15.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-05T00:33:46.220Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="gN0BUjh_yK4DSFc1omtt" version="15.9.1" type="github">
   <diagram id="B_Kyze1z_75yRYQksSdH" name="Page-1">
     <mxGraphModel dx="680" dy="385" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -195,6 +195,12 @@
         </mxCell>
         <mxCell id="xjnHRLogiP08fS3p93gv-71" value="EmpréstimoPermitido" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1420" y="210" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xjnHRLogiP08fS3p93gv-72" value="" style="endArrow=classic;html=1;rounded=0;shadow=0;strokeColor=#000000;strokeWidth=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="xjnHRLogiP08fS3p93gv-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1170" y="40" as="sourcePoint" />
+            <mxPoint x="1300" y="190" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
