@@ -1,0 +1,22 @@
+body {
+    color: #535664;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .like-button,
+  .dislike-button {
+    border: 1px solid #afb0b0;
+    background: linear-gradient(to bottom, #e6e7e7 0%, #f5f5f5 100%);;
+    padding: 10px 5px;
+  }
+  
+  .like-button {
+    margin-right: 10px;
+  }
+  
+  .liked, .disliked {
+    font-size: 20px;
+    font-weight: 700;
+    color: purple;
+    padding: 15 8px;
+  }
